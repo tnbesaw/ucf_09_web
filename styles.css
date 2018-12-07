@@ -1,0 +1,174 @@
+/**********************************************************
+   
+ Custom Styles 
+
+***********************************************************/
+/* the body changes are for the fixed navbar */
+.body {
+    /*min-height: 200px;*/
+    padding-top: 70px;
+}
+
+#brand_header {
+    background-color: darkcyan;
+    color: white;
+    font-weight: bolder;
+}
+
+.x_th_right {
+    text-align: right;
+}
+
+.x_navbar {
+    background-color: white;
+}
+
+.x_body_container {
+    background-color: rgb(227, 233, 240);    
+}
+
+.x_region {
+    padding: 16px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+/* format each region header */
+.x_region_header {
+    color: darkcyan;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;    
+}
+
+/* format each region sub header */
+.x_region_sub_header {
+    color: darkcyan;
+    padding-top: 0px;
+}
+
+/* move main row down the page */
+.x_row {
+    margin-top: 100px;
+}
+
+/* resize main region image */
+.x_img_main {
+    float: left;
+    width: 200px;
+}
+
+/* resize main region image */
+.x_img_feature {
+    width: 500px;
+}
+
+/* resize small images */
+.x_img_tmb {
+    width: 170px;
+}
+
+/* resize small images */
+.x_img_tmb_active {
+    border-width: 1px; 
+    border-color: darkblue; 
+    border-style: solid; 
+}
+
+/* resize compare images */
+.x_img_cmp {
+    width: 300px;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/**********************************************************
+   
+Footer
+
+***********************************************************/
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: darkslategray;
+    color: white;
+}
+
+/**********************************************************
+   
+ Overide default values in provided classes
+
+***********************************************************/
+
+/* custom styles for medium */
+@media (max-width: 992px) {
+
+    /* resize main region image */
+    .x_img_main {
+        float: left;
+        width: 125px;
+    }
+
+    /* resize main region image */
+    .x_img_feature {
+        width: 400px;
+    }
+
+    /* resize small images */
+    .x_img_tmb {
+        height: 100px;
+    }
+
+}    
+
+
+/* custom styles for small and extra small */
+@media (max-width: 768px) {
+    .navbar-header {
+        background-color: darkcyan;
+    }
+
+    .x_row {
+        margin-top: 60px;
+    }
+    
+    .x_region {
+        margin: 5px;
+        padding: 5px;
+        background-color: white;
+    }
+
+    /* resize main region image */
+    .x_img_main {
+        float: left;
+        width: 125px;
+    }
+
+    /* resize main region image */
+    .x_img_feature {
+        width: 300px;
+    }
+
+    /* resize small images */
+    .x_img_tmb {
+        height: 100px;
+    }
+    
+}

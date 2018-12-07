@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Humidity</title>        
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="..\styles.css">   
+</head>
+<body class="x_body_container">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top x_navbar">
+        <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="..\index.html" id="brand_header">Latitude</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="temperature.html">Max Temperature</a></li>
+                        <li><a href="humidity.html">Humidity</a></li>
+                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                        <li><a href="wind_speed.html">Wind Speed</a></li>                        
+                    </ul>
+                    <li><a href="..\comparison.html">Comparison</a></li>
+                    <li><a href="..\data.html">Data</a></li>
+                    </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <!-- Begin page content     -->
+    <div class="container" >
+        <div class="row x_row">
+
+            <div class="col-md-8">
+                <div class="x_region">
+                    <h2 class="x_region_header">Humidity</h2>
+                    <div class="text-center"><img src="..\Resources\assets\images\Fig2.png" alt="Humidity" class="x_img_feature"></div>
+                    <p>There is no strong correlation between latitude and humidity. Basically, it's friggin humid everywhere!</p>
+					<p>Some extra text, just for fun "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus officiis, blanditiis possimus voluptatum reiciendis ipsam veritatis. Libero maiores eum velit id sapiente. In commodi labore iste voluptatum magni ullam placeat!"</p>                
+                </div>
+            </div>    
+
+            <div class=" col-md-4">
+                <div class="x_region">
+                    <h2 class="x_region_header">Visulizations</h2>
+                    <div class="row text-center">
+                        <div class="">
+                            <a href="temperature.html" ><img src="..\Resources\assets\images\Fig1.png" alt="Max Temperature" class="x_img_tmb"></a>
+                            <a href="humidity.html"><img src="..\Resources\assets\images\Fig2.png" alt="Humidity" class="x_img_tmb x_img_tmb_active"></a>
+                            <a href="cloudiness.html"><img src="..\Resources\assets\images\Fig3.png" alt="Cloudiness" class="x_img_tmb"></a>
+                            <a href="wind_speed.html"><img src="..\Resources\assets\images\Fig4.png" alt="Wind Speed" class="x_img_tmb"></a>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+
+    
+        </div>
+    </div>
+
+    <!-- Begin page content -->
+    <footer class="footer">
+        <div class="container">
+          <p>UCF Bootcamp - Bootstrap Project</p>
+        </div>
+    </footer>
+</body>
+</html>
